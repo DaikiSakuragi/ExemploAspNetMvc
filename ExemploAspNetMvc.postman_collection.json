@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "992b65f1-c7b0-4814-8a82-43cdd4dbd977",
+		"name": "ExemploAspNetMvc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home",
+			"item": [
+				{
+					"name": "Index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/Home/Index",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Home",
+								"Index"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Privacy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/Home/Privacy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Home",
+								"Privacy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Primeira Action",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/Home/PrimeiraAction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Home",
+								"PrimeiraAction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teste Query String",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5001/Home/TesteQueryString?q=batata&nome=Ikiad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Home",
+								"TesteQueryString"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "batata"
+								},
+								{
+									"key": "nome",
+									"value": "Ikiad"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teste Form",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
